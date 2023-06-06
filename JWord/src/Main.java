@@ -19,12 +19,12 @@ public class Main {
     public static void main(String[] args) {
     //load in the two word lists
         try{
-            Scanner in_dict  = new Scanner(new File("gameDictionary.txt"));
+            Scanner in_dict  = new Scanner(new File("JWord/src/gameDictionary.txt"));
             while(in_dict.hasNext()){
                 dictionary.add(in_dict.next());
             }
 
-            Scanner in_targets = new Scanner(new File("targetWords.txt"));
+            Scanner in_targets = new Scanner(new File("JWord/src/targetWords.txt"));
             while(in_targets.hasNext()){
                 targetWords.add(in_targets.next());
                 rhymeHint.add(in_targets.next());
