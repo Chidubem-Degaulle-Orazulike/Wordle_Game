@@ -1,7 +1,4 @@
 # Wordle_Game
-
-Congratulations on your accomplishment! Here's a draft of a paragraph you could use to describe this project on your portfolio website:
-
 JWord: A Localized Wordle Game Clone in Java
 
 In a thrilling challenge of my programming skills, I built JWord, a localized version of the popular online word puzzle game, Wordle. Fully implemented in Java, JWord selects a new 5-letter target word with each game, providing an exciting guessing challenge for the player. I utilized the Swing library for the graphical user interface, enabling a visually engaging game experience that does not require any internet services or social media integration.
